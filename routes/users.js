@@ -7,7 +7,7 @@ router.get('/', function (req, res) {
 });
 
 router.get('/:id', function (req, res) {
-  res.send('Welcome ');
+  res.send('Welcome ' + req.params.id);
 });
 
 module.exports = router;
