@@ -1,0 +1,9 @@
+{
+  "name": "nx-codebase",
+  "version": "1.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
